@@ -45,7 +45,7 @@ void loop(){
   Serial.print("sensor value= ");
   Serial.print(sensorValue);
   
-  Serial.print("\t renk= ");
+  Serial.print("\t color= ");
   if(sensorValue < referenceValue){
     Serial.println("black");
  }
